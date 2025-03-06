@@ -1,0 +1,72 @@
+.character-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.character-image {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.character-info {
+    padding: 15px;
+}
+
+.character-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.character-planet {
+    color: #666;
+    margin: 0 0 10px 0;
+}
+
+.character-details {
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.character-details p {
+    margin: 5px 0;
+}
+
+/* Mobile-specific styles */
+@media screen and (max-width: 767px) {
+    .character-card {
+        display: flex;
+        height: 150px; /* Reduced height for mobile */
+    }
+
+    .character-image {
+        width: 30%;
+        height: 100%;
+    }
+
+    .character-info {
+        width: 70%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .character-details {
+        display: none; /* Hide details on mobile */
+    }
+
+    .character-name {
+        font-size: 1rem;
+        margin-bottom: 4px;
+    }
+
+    .character-planet {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+}
