@@ -2,6 +2,9 @@
 
 A React TypeScript application that allows users to explore Star Wars characters and their details using the Star Wars API (SWAPI).
 
+## Live preview
+https://mizumotocw.github.io/frontend-test-starwars/
+
 ## Features
 
 - Browse Star Wars characters
@@ -86,15 +89,6 @@ export default tseslint.config({
   },
 })
 ```
-
-## Contributing
-
-[Add your contribution guidelines here]
-
-## License
-
-[Add your license information here]
-
 ## Acknowledgments
 
 - Star Wars API (SWAPI) for providing the data
